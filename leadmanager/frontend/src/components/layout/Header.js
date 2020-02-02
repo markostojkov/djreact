@@ -72,13 +72,6 @@ class Header extends Component {
 								</Link>
 							</li>
 						</ul>
-						<ul className="navbar-nav mr-auto mt-2 mt-lg-0">
-							<li className="nav-item">
-								<Link to="/sudoku" className="nav-link">
-									Sudoku
-								</Link>
-							</li>
-						</ul>
 					</div>
 					{isAuthenticated ? authLinks : guestLinks}
 				</div>
