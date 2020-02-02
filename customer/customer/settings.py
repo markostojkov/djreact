@@ -122,6 +122,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 SEND_GRID_API_KEY = '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'
 EMAIL_HOST = 'smtp.sendgrid.net'
